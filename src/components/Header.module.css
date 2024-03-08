@@ -1,0 +1,8 @@
+.container {
+    display: flex; /* Usa display flex para layout flexível */
+    flex: 1; /* Permite que o elemento flexione (cresça e encolha) */
+    align-items: center; /* Centraliza os itens filhos verticalmente */
+    justify-content: center; /* Centraliza os itens filhos horizontalmente */
+    padding: 5rem 0.625rem; /* Define o preenchimento superior/inferior e esquerdo/direito */
+    background-color: var(--gray-700); /* Define a cor de fundo usando uma variável CSS */
+}
